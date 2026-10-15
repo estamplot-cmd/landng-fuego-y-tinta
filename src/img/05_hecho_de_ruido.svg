@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300mm" height="300mm" viewBox="0 0 300 300">
+<title>HECHO DE RUIDO — vector serigrafía/DTG</title><desc>Fondo transparente. Tinta: negro carbón #292929.</desc>
+<g id="tinta-negro-carbon" fill="#292929" stroke="#292929" stroke-linecap="round" stroke-linejoin="round">
+  <text x="150" y="105" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="8.5" letter-spacing=".2">HECHO DE</text>
+  <text x="150" y="114" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="8.5" letter-spacing=".2">RUIDO</text>
+  <path d="M150 120v35" stroke-width=".35"/>
+  <path d="M132 137h7l3-3 2 8 3-19 3 28 3-18 3 5h7" fill="none" stroke-width=".6"/>
+  <path d="M144 164q6-8 12-2q-4 0-7 5" fill="none" stroke-width=".7"/>
+  <circle cx="150" cy="122" r=".8" stroke="none"/><circle cx="150" cy="158" r=".7" stroke="none"/>
+</g></svg>

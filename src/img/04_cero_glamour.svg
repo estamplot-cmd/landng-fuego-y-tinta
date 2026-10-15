@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300mm" height="300mm" viewBox="0 0 300 300">
+<title>CERO GLAMOUR — vector serigrafía/DTG</title><desc>Fondo transparente. Tintas: negro #171717 y azul #244EDB.</desc>
+<g id="tinta-negro" fill="#171717" stroke="#171717" stroke-linecap="round" stroke-linejoin="round">
+  <text x="150" y="101" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="900" letter-spacing="-.5">CERO</text>
+  <text x="150" y="115" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="900" letter-spacing="-.7">GLAMOUR</text>
+  <circle cx="150" cy="135" r="13" fill="none" stroke-width="1.5"/>
+  <circle cx="145" cy="132" r="1.5" stroke="none"/><circle cx="155" cy="132" r="1.5" stroke="none"/>
+  <path d="M144 141q6-5 12 0" fill="none" stroke-width="1.5"/>
+</g>
+<g id="tinta-azul" stroke="#244EDB" stroke-width="3.2" stroke-linecap="round"><path d="M139 145l22-28"/><path d="M135 121l3 1M164 140l3 1"/></g></svg>

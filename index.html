@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fuego y tinta — remeras de autor · La Plata</title>
+<meta name="description" content="fuego y tinta — remeras de autor hechas en La Plata. Diseños propios, ediciones limitadas. Consultanos por Instagram o WhatsApp.">
+<link rel="icon" href="src/img/logo.png">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <svg class="spark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M0,-24 C-11,-15 -13,-5 -8,2 C-2,-3 1,-9 3,-16 C10,-7 14,2 8,11 C4,17 -3,20 -11,18 C-18,16 -22,10 -21,3 C-20,-6 -13,-15 0,-24Z"
+              transform="translate(26 22) scale(0.85)" fill="#D8222A"/>
+      </svg>
+      <span>fuego <b>y</b> tinta</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#la-prenda">La prenda</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-solid" href="#catalogo">Ver catálogo</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Remeras de autor · La Plata</span>
+        <h1>Remeras <span class="flame">de autor</span>, hechas en La Plata.</h1>
+        <p>Cinco diseños propios de la colección under de fuego y tinta. Calce oversized, estampado durable y tiradas cortas: cuando se agota un diseño, no se repite igual.</p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="#catalogo">Ver catálogo
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn" href="#contacto">Contactanos</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>5</b><span>Diseños</span></div>
+          <div class="stat"><b>100%</b><span>Algodón</span></div>
+          <div class="stat"><b>Ed.</b><span>Limitada</span></div>
+          <div class="stat"><b>LP</b><span>La Plata</span></div>
+        </div>
+      </div>
+      <div class="hero-art" id="heroArt">
+        <span class="badge" id="heroBadge">fuego y tinta</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATALOGO -->
+  <section id="catalogo">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="sec-tag">El objeto principal</span>
+          <h2>Catálogo de diseños</h2>
+          <p>Elegí el diseño que te gusta y consultanos talle, stock y envío directo por WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="filters" id="filters"></div>
+      <div class="catalog-grid" id="catalog"></div>
+    </div>
+  </section>
+
+  <!-- LA PRENDA -->
+  <section id="la-prenda">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="sec-tag">Antes de pedir</span>
+          <h2>Sobre la prenda</h2>
+          <p>Lo que tenés que saber antes de escribirnos.</p>
+        </div>
+      </div>
+      <div class="specs-grid">
+        <div class="spec">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 4L4 8l3 3-2 9h14l-2-9 3-3-4-4-3 2h-2z"/></svg>
+          </div>
+          <h4>Calce oversized</h4>
+          <p>Remeras amplias, unisex, pensadas para usar sueltas. Te pasamos la tabla de talles por WhatsApp antes de confirmar el pedido.</p>
+        </div>
+        <div class="spec">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a7 7 0 0 0-7 7c0 3 2 5 4 7l3 3 3-3c2-2 4-4 4-7a7 7 0 0 0-7-7z"/></svg>
+          </div>
+          <h4>100% algodón</h4>
+          <p>Tela de calidad, estampado directo y durable. Lavar del revés con agua fría y evitar planchar sobre el diseño.</p>
+        </div>
+        <div class="spec">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+          </div>
+          <h4>Edición limitada</h4>
+          <p>Diseños propios en tiradas cortas, hechos en La Plata. Cuando se agota un diseño, no vuelve a salir igual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="wrap">
+      <div class="cta">
+        <span class="sec-tag">Drop 01 · edición limitada</span>
+        <h2>Encargá tu remera.</h2>
+        <p>Contanos qué diseño te gustó y coordinamos talle, stock y entrega por estos medios.</p>
+        <div class="contact-buttons">
+          <a class="contact-btn wp" id="ctaWhatsapp" target="_blank" rel="noopener">
+            <span class="ic">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.38A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.1c-1.6 0-3.1-.43-4.4-1.22l-.31-.19-3.1.82.83-3.02-.2-.31A8.08 8.08 0 0 1 3.94 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1Zm4.44-6.07c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.12-.12.27-.31.4-.46.14-.16.18-.27.28-.45.09-.18.05-.33-.02-.46-.08-.12-.63-1.52-.86-2.08-.23-.55-.47-.47-.65-.48-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.28.3-1.07 1.05-1.07 2.56 0 1.51 1.1 2.97 1.25 3.17.15.2 2.07 3.16 5.02 4.3 2.95 1.14 2.95.76 3.48.71.53-.05 1.7-.69 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.24-.19-.48-.31Z"/></svg>
+            </span>
+            <span>
+              <small>WhatsApp</small>
+              2216252530
+            </span>
+          </a>
+          <a class="contact-btn ig" href="https://instagram.com/fuego.tinta" target="_blank" rel="noopener">
+            <span class="ic">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+            </span>
+            <span>
+              <small>Instagram</small>
+              @fuego.tinta
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="year"></span> <b>fuego y tinta</b> · remeras de autor · La Plata, Argentina</div>
+    <div class="foot-social">
+      <a id="footWhatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.38A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.1c-1.6 0-3.1-.43-4.4-1.22l-.31-.19-3.1.82.83-3.02-.2-.31A8.08 8.08 0 0 1 3.94 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1Zm4.44-6.07c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.12-.12.27-.31.4-.46.14-.16.18-.27.28-.45.09-.18.05-.33-.02-.46-.08-.12-.63-1.52-.86-2.08-.23-.55-.47-.47-.65-.48-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.28.3-1.07 1.05-1.07 2.56 0 1.51 1.1 2.97 1.25 3.17.15.2 2.07 3.16 5.02 4.3 2.95 1.14 2.95.76 3.48.71.53-.05 1.7-.69 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.24-.19-.48-.31Z"/></svg>
+      </a>
+      <a href="https://instagram.com/fuego.tinta" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="modal-stage" id="modalStage"></div>
+    <div class="modal-bar">
+      <h3 id="modalTitle">—</h3>
+      <a class="btn btn-whatsapp" id="modalWhatsapp" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.38A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.1c-1.6 0-3.1-.43-4.4-1.22l-.31-.19-3.1.82.83-3.02-.2-.31A8.08 8.08 0 0 1 3.94 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1Zm4.44-6.07c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.12-.12.27-.31.4-.46.14-.16.18-.27.28-.45.09-.18.05-.33-.02-.46-.08-.12-.63-1.52-.86-2.08-.23-.55-.47-.47-.65-.48-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.28.3-1.07 1.05-1.07 2.56 0 1.51 1.1 2.97 1.25 3.17.15.2 2.07 3.16 5.02 4.3 2.95 1.14 2.95.76 3.48.71.53-.05 1.7-.69 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.24-.19-.48-.31Z"/></svg>
+        Consultar
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ---------------- CONTACTO ---------------- */
+const WHATSAPP_NUMBER = "5492216252530";
+const IG_HANDLE = "@fuego.tinta";
+const waLink = (msg) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+
+document.getElementById("ctaWhatsapp").href = waLink("Hola! Quiero consultar por las remeras de fuego y tinta.");
+document.getElementById("footWhatsapp").href = waLink("Hola! Quiero consultar por las remeras de fuego y tinta.");
+
+/* ---------------- DATA ---------------- */
+const DESIGNS = [
+  { slug:"no_signal", num:"01", name:"NO SIGNAL", tag:"glitch / analógico", img:"src/img/remera_opcion_1_no_signal_hd.png" },
+  { slug:"baja_frecuencia", num:"02", name:"BAJA FRECUENCIA", tag:"vino / serigrafía", img:"src/img/remera_opcion_2_baja_frecuencia_hd.png" },
+  { slug:"anti_romance", num:"03", name:"ANTI-ROMANCE CLUB", tag:"mono / club", img:"src/img/remera_opcion_3_anti_romance_hd.png" },
+  { slug:"cero_glamour", num:"04", name:"CERO GLAMOUR", tag:"azul / tachado", img:"src/img/remera_opcion_4_cero_glamour_hd.png" },
+  { slug:"hecho_de_ruido", num:"05", name:"HECHO DE RUIDO", tag:"serif / línea", img:"src/img/remera_opcion_5_hecho_de_ruido_hd.png" },
+];
+
+/* ---------------- RENDER CATALOG ---------------- */
+const catalog = document.getElementById("catalog");
+const filters = document.getElementById("filters");
+
+DESIGNS.forEach(d => {
+  const card = document.createElement("article");
+  card.className = "card";
+  card.dataset.tag = d.tag;
+  card.dataset.name = d.name;
+  card.innerHTML = `
+    <div class="preview">
+      <span class="num">${d.num}</span>
+      <button class="zoom" aria-label="Ampliar">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg>
+      </button>
+      <img src="${d.img}" alt="Remera ${d.name} — fuego y tinta" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">
+        <h3>${d.name}</h3>
+        <span class="sub">${d.num}</span>
+      </div>
+      <span class="card-tag">${d.tag}</span>
+      <a class="btn btn-whatsapp card-cta" href="${waLink(`Hola! Quiero consultar por la remera "${d.name}" de fuego y tinta.`)}" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.52 0-10 4.48-10 10 0 1.77.46 3.45 1.27 4.9L2 22l5.25-1.38A9.96 9.96 0 0 0 12.04 22c5.52 0 10-4.48 10-10s-4.48-10-10-10Zm0 18.1c-1.6 0-3.1-.43-4.4-1.22l-.31-.19-3.1.82.83-3.02-.2-.31A8.08 8.08 0 0 1 3.94 12c0-4.47 3.63-8.1 8.1-8.1 4.47 0 8.1 3.63 8.1 8.1 0 4.47-3.63 8.1-8.1 8.1Zm4.44-6.07c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.12-.12.27-.31.4-.46.14-.16.18-.27.28-.45.09-.18.05-.33-.02-.46-.08-.12-.63-1.52-.86-2.08-.23-.55-.47-.47-.65-.48-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.28.3-1.07 1.05-1.07 2.56 0 1.51 1.1 2.97 1.25 3.17.15.2 2.07 3.16 5.02 4.3 2.95 1.14 2.95.76 3.48.71.53-.05 1.7-.69 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.24-.19-.48-.31Z"/></svg>
+        Consultar por WhatsApp
+      </a>
+    </div>`;
+
+  card.querySelector(".zoom").addEventListener("click", e=>{ e.stopPropagation(); openModal(d); });
+  card.querySelector(".preview").addEventListener("click", ()=> openModal(d));
+
+  catalog.appendChild(card);
+});
+
+/* ---------------- FILTERS ---------------- */
+const tags = ["Todos", ...DESIGNS.map(d=>d.tag)];
+tags.forEach(t=>{
+  const b = document.createElement("button");
+  b.className = "chip" + (t==="Todos" ? " active":"");
+  b.textContent = t;
+  b.addEventListener("click", ()=>{
+    filters.querySelectorAll(".chip").forEach(c=>c.classList.toggle("active", c===b));
+    document.querySelectorAll(".card").forEach(card=>{
+      const show = t==="Todos" || card.dataset.tag===t;
+      card.classList.toggle("hidden", !show);
+    });
+  });
+  filters.appendChild(b);
+});
+
+/* ---------------- HERO ROTATOR ---------------- */
+const heroArt = document.getElementById("heroArt");
+const heroBadge = document.getElementById("heroBadge");
+const heroPlate = document.createElement("div");
+heroPlate.className = "plate";
+heroPlate.innerHTML = `<img src="${DESIGNS[0].img}" alt="${DESIGNS[0].name}">`;
+heroArt.appendChild(heroPlate);
+heroArt.appendChild(heroBadge);
+let hi = 0;
+setInterval(()=>{
+  hi = (hi+1) % DESIGNS.length;
+  heroPlate.style.opacity = 0;
+  setTimeout(()=>{
+    heroPlate.innerHTML = `<img src="${DESIGNS[hi].img}" alt="${DESIGNS[hi].name}">`;
+    heroBadge.textContent = DESIGNS[hi].name;
+    heroPlate.style.opacity = 1;
+  }, 400);
+}, 3200);
+
+/* ---------------- MODAL ---------------- */
+const modal = document.getElementById("modal");
+const modalStage = document.getElementById("modalStage");
+const modalTitle = document.getElementById("modalTitle");
+const modalWhatsapp = document.getElementById("modalWhatsapp");
+
+function openModal(d){
+  modalStage.innerHTML = `<img src="${d.img}" alt="Remera ${d.name} — fuego y tinta">`;
+  modalTitle.textContent = `${d.num} · ${d.name}`;
+  modalWhatsapp.href = waLink(`Hola! Quiero consultar por la remera "${d.name}" de fuego y tinta.`);
+  modal.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(){ modal.classList.remove("open"); document.body.style.overflow = ""; }
+document.getElementById("modalClose").addEventListener("click", closeModal);
+modal.addEventListener("click", e=>{ if(e.target===modal) closeModal(); });
+document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeModal(); });
+
+/* ---------------- MISC ---------------- */
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

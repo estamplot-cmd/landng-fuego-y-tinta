@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300mm" height="300mm" viewBox="0 0 300 300">
+<title>ANTI-ROMANCE CLUB — vector serigrafía/DTG</title><desc>Fondo transparente. Tinta: negro #171717.</desc>
+<g id="tinta-negro" fill="none" stroke="#171717" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="150" cy="112" rx="42" ry="18" stroke-width="1.1"/>
+  <path d="M150 104c-6-8-17-1-11 6l11 11 11-11c6-7-5-14-11-6z" fill="#171717" stroke="none"/>
+  <path d="M150 103v18" stroke="#fff" stroke-width="1.1"/>
+  <text x="150" y="99" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="5.4" letter-spacing="1.1" fill="#171717" stroke="none">ANTI-ROMANCE CLUB</text>
+</g></svg>
