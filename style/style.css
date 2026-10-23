@@ -188,6 +188,8 @@ section{padding:76px 0;border-top:1px solid var(--linea)}
 .contact-btn.wp:hover{background:#2fe077;transform:translateY(-2px)}
 .contact-btn.ig{background:linear-gradient(135deg,#feda75 0%,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5 100%);color:#fff}
 .contact-btn.ig:hover{filter:brightness(1.08);transform:translateY(-2px)}
+.contact-btn.channel{background:#07301c;color:var(--whatsapp);border-color:var(--whatsapp)}
+.contact-btn.channel:hover{background:#0b4a2b;transform:translateY(-2px)}
 
 footer{border-top:1px solid var(--linea);padding:40px 0;margin-top:76px}
 .foot{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap;color:var(--crema-dim);font-size:.82rem}
